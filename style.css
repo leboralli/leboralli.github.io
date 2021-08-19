@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(244, 241, 222);
+
+}
+
+h1 {
+    font-family: inherit;
+    color: rgb(61, 64, 91);
+}
+#desc-pessoal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* .listas{
+    font-size: 40px;
+} */
+li {
+    font-size: 20px;
+}
