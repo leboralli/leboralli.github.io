@@ -1,6 +1,6 @@
 body {
     background-color: rgb(244, 241, 222);
-
+    padding: 1%;
 }
 
 h1 {
@@ -9,10 +9,36 @@ h1 {
 }
 #desc-pessoal{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 35%;
+    right: 5%;
 }
 /* .listas{
     font-size: 40px;
 } */
-li {
+ul li {
     font-size: 20px;
 }
+
+ul li:nth-child(odd) {
+    background-color: rgb(61, 64, 91);
+}
+
+h1 {
+    text-align: center;
+}
+
+#foto-pessoal {
+    float: left;
+    height: 430px;
+    padding: 10px;
+    background-color: rgb(61, 64, 91);
+}
+
+.image-container {
+    height: 450px;
+    position: relative;
+}
+/* div {
+    border: 2px solid green;
+} */
